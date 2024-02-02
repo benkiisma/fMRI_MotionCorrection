@@ -3,23 +3,6 @@
 The quality of fMRI data is affected by the subject’s motion in the scanner. This can cause signal alterations across fMRI volumes generating spurious results. Hence, motion correction is always an important preprocessing step in fMRI data analysis. This code will perform brain extraction and motion correction to fMRI acquired data. 
 The dataset that I used is accessible through openneuroi: Flanker test https://openneuro.org/datasets/ds000102/versions/00001.
 
-
-### Directory structure
-```
-
-│   README.md
-│   main.ipynb
-│   utils.py
-│   
-├───images
-        bet_skull.png
-        fMRI_Tmean.png
-        static_visualization.png   
-        sub-01_animation.gif
-        sub-01_run-1_animation.gif
-        sub-01_run-1_moco_animation.gif
-        thresholding.png
-        voxel_timeseries.png
 ```
 
 To start the notebook, run the following line on a terminal :
