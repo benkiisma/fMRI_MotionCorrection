@@ -3,13 +3,13 @@
 The quality of fMRI data is affected by the subject’s motion in the scanner. This can cause signal alterations across fMRI volumes generating spurious results. Hence, motion correction is always an important preprocessing step in fMRI data analysis. This code will perform brain extraction and motion correction to fMRI acquired data. 
 The dataset that I used is accessible through openneuroi: Flanker test https://openneuro.org/datasets/ds000102/versions/00001.
 
-```
+# How to Run 
 
 To start the notebook, run the following line on a terminal :
 
-    fsleyes --notebookFile main.ipynb
+    'fsleyes --notebookFile main.ipynb'
     
-### Dependencies
+# Dependencies
 - os
 - nibabel
 - pandas
@@ -25,11 +25,11 @@ To start the notebook, run the following line on a terminal :
 - openneuro-py 
 - fsleyes
 
-### Data 
+# Data 
 The data can be found here : https://openneuro.org/datasets/ds000102/versions/00001 \
 It comprises data collected from 26 healthy adults while they performed a slow event-related Eriksen Flanker task. For this study, only the first three subjects are used (sub-01, sub-02, sub-03). 
 
-### References
+# References
 Kelly, A.M., Uddin, L.Q., Biswal, B.B., Castellanos, F.X., Milham, M.P. (2008). Competition between functional brain networks mediates behavioral variability. Neuroimage, 39(1):527-37
 
 Mennes, M., Kelly, C., Zuo, X.N., Di Martino, A., Biswal, B.B., Castellanos, F.X., Milham, M.P. (2010). Inter-individual differences in resting-state functional connectivity predict task-induced BOLD activity. Neuroimage, 50(4):1690-701. doi: 10.1016/j.neuroimage.2010.01.002. Epub 2010 Jan 15. Erratum in: Neuroimage. 2011 Mar 1;55(1):434
